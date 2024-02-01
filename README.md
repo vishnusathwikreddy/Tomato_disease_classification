@@ -1,0 +1,3 @@
+This model classifies 9 types of tomato diseases by analysing the leaves of the tomato plant. The api folder contains 'main.py' file which has fast api connected to the model. 'training.ipynb' file has all the code for the model. 'model_1' folder contains the saved model. It is saved using model.save() method in tensorflow. I have not included here because there are to many photoes to upload. You can download the dataset from here  "https://www.kaggle.com/datasets/arjuntejaswi/plant-village".
+
+Note : I have used absolute path to load model in main.py file. If you download this file change the address. Relative path is not workinh in my system I don't know why, if you know that please let me know.
